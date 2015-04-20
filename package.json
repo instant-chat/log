@@ -1,9 +1,9 @@
 {
-  "name": "base-node",
-  "version": "0.0.4",
-  "description": "Base Node.JS Development Environment",
-  "repository": "https://github.com/blakelapierre/base-node",
-  "main": "index.js",
+  "name": "instant-chat-log",
+  "version": "0.0.1",
+  "description": "A logger",
+  "repository": "https://github.com/instant-chat/log",
+  "main": ".dist/index.js",
   "author": "Blake La Pierre",
   "license": "MIT",
   "devDependencies": {
@@ -29,5 +29,8 @@
     "traceur": "0.0.88",
     "traceur-runtime": "0.0.59",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "lodash": "^3.7.0"
   }
 }
